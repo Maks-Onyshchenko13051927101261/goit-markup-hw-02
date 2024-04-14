@@ -5,10 +5,15 @@ body {
 }
 a {
     text-decoration: none;
+    color: inherit;
 }
 ul, ol {
     list-style-type: none;
 }
 button {
     cursor:pointer;
+}
+.adress-info .contacts-info:hover,
+.adress-info .contacts-info:focus {
+    color:#6a71f3
 }
