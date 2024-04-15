@@ -1,5 +1,5 @@
 body {
-    font-family:'Roboto', 'Raleway', sans-serif;
+    font-family:'Roboto', sans-serif;
     color:#434455;
     background-color:#fff;
 }
@@ -27,13 +27,13 @@ font-family: "Raleway", sans-serif;
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.16667;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.page-navigation .menu-logo:hover,
-.page-navigation .menu-logo:focus {
+.page-menu .menu-item:hover,
+.page-menu .menu-item:focus {
     color: #404bbf
 }
 .page-menu .menu-item {
@@ -41,6 +41,8 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
+    color: #2e2f42;
 }
 .adress-info .contacts-info {
         font-weight: 400;
