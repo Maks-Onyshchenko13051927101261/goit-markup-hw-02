@@ -48,3 +48,25 @@ button {
 .adress-info .contacts-info:focus {
     color: #4d5ae5
 }
+/*================SOLUTION================*/
+.service-solutions {
+    width: 1440px;
+    height: 600px;
+    background: #2e2f42;
+}
+.service-solutions .solution-info {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07143;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #fff;
+}
+.service-solutions .service-button {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #fff;
+            background: #4d5ae5;
+}
