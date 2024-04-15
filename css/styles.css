@@ -41,7 +41,6 @@ font-family: "Raleway", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: #2e2f42;
 }
 .adress-info .contacts-info {
@@ -49,6 +48,7 @@ font-family: "Raleway", sans-serif;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        font-style: normal;
         color: #434455;
 }
 .adress-info .contacts-info:hover,
