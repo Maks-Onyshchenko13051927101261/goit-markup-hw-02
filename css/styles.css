@@ -14,7 +14,7 @@ button {
     cursor:pointer;
 }
 /*================HEDER================*/
-.page-menu .accent-header {
+.accent-header {
 font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -23,17 +23,17 @@ font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #2e2f42
 }
-.page-menu .page-logo {
+.page-navigation .menu-logo {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: 1.16667;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.page-menu .page-logo:hover,
-.page-menu .page-logo:focus {
+.page-navigation .menu-logo:hover,
+.page-navigation .menu-logo:focus {
     color: #404bbf
 }
 .page-menu .menu-item {
@@ -68,7 +68,7 @@ font-family: "Raleway", sans-serif;
         color: #fff;
 }
 .service-solutions .service-button {
-    font-family: "Roboto", sans-serif
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -87,12 +87,14 @@ h2 {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
  }
 .advantages-list-item .advantages-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .advantages-list-item .advantages-list-text {
     font-weight: 400;
@@ -111,6 +113,8 @@ h2 {
         line-height: 1.11;
         letter-spacing: 0.02em;
         text-align: center;
+        text-transform: capitalize;
+        color: #2e2f42;
 }
 .team-list .team-list-item {
     background-color: #fff;
@@ -121,6 +125,7 @@ h2 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    color: #2e2f42;
 }
 .team-list-item .team-list-text {
     font-weight: 400;
@@ -137,12 +142,15 @@ h2 {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
 }
 .portfolio-list-item .portfolio-list-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .portfolio-list-item .portfolio-list-text {
     font-weight: 400;
