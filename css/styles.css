@@ -32,8 +32,9 @@ font-family: "Raleway", sans-serif;
         text-transform: uppercase;
         color: #4d5ae5;
 }
-.page-menu .menu-item:hover, .page-menu .menu-item:focus {
-    color: #404bbf
+.menu-item .menu-link:hover, 
+.menu-item .menu-link:focus {
+    color: #404bbf;
 }
 .page-menu .menu-item {
     font-weight: 500;
